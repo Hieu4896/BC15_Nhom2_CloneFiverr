@@ -1,0 +1,65 @@
+.footer {
+  padding-top: 200px;
+}
+.ulHomeFooter {
+  list-style: none;
+}
+.h3HomeFooter {
+  font-size: 16px;
+  font-weight: bolder;
+  padding-bottom: 16px;
+}
+
+.liHomeFooter {
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+.aHomeFooter {
+  color: #7a7d85;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 70px;
+  padding: 150px 0 50px 0;
+}
+
+.left {
+  padding: 16px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left svg {
+  width: 77px;
+  height: 23px;
+}
+.right {
+  padding: 0 50px;
+  max-height: 27px;
+}
+.right ul {
+  list-style: none;
+  padding-top: 16px;
+}
+
+.right ul li {
+  display: inline-block;
+  padding: 0 20px;
+  height: 100%;
+}
+.text-body-2 {
+  color: #b5b6ba;
+  font-size: 14px;
+  margin-left: 20px;
+  padding-top: 16px;
+}
+.right ul li i {
+  font-size: 20px;
+  color: rgb(55, 161, 55);
+  font-weight: bold;
+}

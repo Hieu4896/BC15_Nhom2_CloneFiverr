@@ -1,0 +1,151 @@
+.hero-background {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+/* .fadeAni {
+  -webkit-animation: fade 3s ease 0s infinite;
+  animation: fade 3s ease 0s infinite;
+  transition: all 3s;
+} */
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.header {
+  padding: 170px 0 50px 0;
+  max-width: 650px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 50px;
+}
+
+.header h1 span {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.formInput {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  margin: 0;
+  border-radius: 2px;
+  padding: 0 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.searchInput {
+  font-size: 16px;
+  line-height: 50px;
+  border: none !important;
+  outline: none;
+  width: 500px;
+  padding-left: 20px;
+}
+
+.buttonInput {
+  font-size: 24px;
+  line-height: 50px;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  outline: none;
+  position: absolute;
+  right: 0;
+  max-width: 100px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+}
+
+.search-bar-panel {
+  width: 600px;
+  background: white;
+  height: auto;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-top: 5px;
+  overflow: hidden;
+  overflow-y: auto;
+  list-style: none;
+}
+.search-bar-panel.active {
+  width: 600px;
+  background: white;
+  height: 200px;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-top: 5px;
+  overflow: hidden;
+  overflow-y: auto;
+  list-style: none;
+  position: absolute;
+  z-index: 10;
+}
+
+.search-bar-panel::-webkit-scrollbar {
+  display: none;
+}
+
+.aStyleSearchbar {
+  color: black !important;
+  font-size: 16px;
+}
+
+.liStyleSearchbar {
+  padding: 20px 0 20px 20px;
+}
+.liStyleSearchbar:hover {
+  background-color: lightslategrey !important;
+}
+
+.formInput i {
+  font-size: 20px;
+  margin-left: -30px;
+  line-height: 50px;
+}
+
+.popular {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 24px;
+  flex-direction: row;
+}
+
+.popular ul {
+  list-style: none;
+}
+
+.popular ul li {
+  display: inline-block;
+}
+.popular ul li a {
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
